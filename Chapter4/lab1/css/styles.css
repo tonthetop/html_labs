@@ -189,3 +189,10 @@ Hide tab-desk class
 .tab-desk {
     display: none;
 }
+
+.addressapi {
+    /* max-width: 10%;*/
+    display: block;
+    object-fit: cover;
+    width: 100%;
+}
