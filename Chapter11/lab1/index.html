@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rentals</title>
+    <meta name="description" content="Strike a Chord specializes in music lessons and music rental equipment.">
+    <title>Music Lessons - Rentals | Strike a Chord.</title>
     <!-- font -->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
     <!-- favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/appletouch-icon.png">
-    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <link rel="icon" type="image/png" href="images/favicon-32.png">
+
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         <h1>
             <span class="tab-desk">
                 &#9836;
-            </span> Rentals
+            </span> Strike a Chord
             <span class="tab-desk">
                 &#9836;
             </span>
@@ -42,8 +42,11 @@
             <div>&#9776;</div>
         </a>
     </nav>
+
+    <!-- Main Nav -->
     <nav class="tab-desk">
         <ul class="menu_top">
+
             <li>
                 <a href="./index.html "> Home</a>
             </li>
@@ -61,50 +64,46 @@
             </li>
         </ul>
     </nav>
+    <!-- Hero Image -->
+    <div id="hero " class="tab-desk">
+        <img src="images/music-notes.png " alt="colorful music notes ">
+    </div>
     <main>
-        <div id="rental">
-            <h2>We rent many different kinds of musical equipment. See our rental rates below.</h2>
-            <table caption="Rental Rates">
-                <tr>
-                    <th>Equipment</th>
-                    <th>Daily Rate</th>
-                    <th>Weekend Rate</th>
-                </tr>
-                <tr>
-                    <td>Guitars</td>
-                    <td>$25</td>
-                    <td>$40</td>
-                </tr>
-                <tr>
-                    <td>Keyboards</td>
-                    <td>$35</td>
-                    <td>$60</td>
-                </tr>
-                <tr>
-                    <td>Drum Kits</td>
-                    <td>$50</td>
-                    <td>$75</td>
-                </tr>
-                <tr>
-                    <td>Microphones</td>
-                    <td>$10</td>
-                    <td>$15</td>
-                </tr>
-                <tr>
-                    <td>DJ Equipment</td>
-                    <td>$22</td>
-                    <td>$38</td>
-                </tr>
-            </table>
+        <!-- Use the main area to add the main content to the webpage -->
+        <br>
+        <div>
+            <p>Welcome to Strike a Chord. We are a local music store, specializing in lessons and rental equipment. Our mission is to provide world-class instruction with each music lesson.</p>
+            <p>We provide lessons for several musical instruments, including piano, guitar, bass, and violin. Your first two lessons are FREE. Contact us today to get started!</p>
         </div>
+        <br>
+
     </main>
     <footer>
-        <p>&copy; Copyright 2021. All Rights Reserved.</p>
-        <p>Email: <a href=”mailto:lessons@strikeachord.net”>lessons@
-            strikeachord.net</a></p>
+        <div class="copyright">
+            <p>&copy; Copyright 2021. All Rights Reserved.</p>
+            <p>Email: <a href=”mailto:lessons@strikeachord.net”>lessons@strikeachord.net</a></p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook-logo.png" alt="Facebook logo ">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="images/twitter-logo.png" alt="Twitter logo ">
+            </a>
+        </div>
     </footer>
+    <!-- <script>
+        jQuery(function($) {
+            var pgurl = window.location.href.substr(window.location.href.lastIndexOf("/") + 1);
+            alert(pgurl);
+            $("nav > li > a").each(function() {
+                if ($(this).attr("href") == pgurl || $(this).attr("href") == '')
+                    $(this).addClass("active");
+                // $(this).parent("li").addClass("active");
+            })
+        });
+    </script> -->
     <script src="scripts/scripts.js"></script>
-
 </body>
 
 </html>
